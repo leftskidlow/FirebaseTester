@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413F99ED26C5B95D0006008C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413F99EC26C5B95D0006008C /* Post.swift */; };
+		41B81B3E26C5BE4600F3E92D /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B3D26C5BE4600F3E92D /* PostData.swift */; };
+		41B81B4226C5BEA700F3E92D /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B3F26C5BEA600F3E92D /* PostRow.swift */; };
+		41B81B4326C5BEA700F3E92D /* NewPostForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B4026C5BEA700F3E92D /* NewPostForm.swift */; };
+		41B81B4426C5BEA700F3E92D /* PostsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B4126C5BEA700F3E92D /* PostsList.swift */; };
+		41B81B4626C5C0DB00F3E92D /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B4526C5C0DB00F3E92D /* SignOutView.swift */; };
+		41E353C826C595260013B7D1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E353C726C595260013B7D1 /* SignInView.swift */; };
+		41E353CA26C595330013B7D1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E353C926C595330013B7D1 /* SignUpView.swift */; };
+		41E353CC26C596F60013B7D1 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E353CB26C596F60013B7D1 /* SignInViewModel.swift */; };
+		41E353CE26C59EEA0013B7D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41E353CD26C59EEA0013B7D1 /* GoogleService-Info.plist */; };
 		41EEC74F26C57D1A0070C967 /* AuthTesterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEC74E26C57D1A0070C967 /* AuthTesterApp.swift */; };
 		41EEC75126C57D1A0070C967 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EEC75026C57D1A0070C967 /* ContentView.swift */; };
 		41EEC75326C57D1B0070C967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EEC75226C57D1B0070C967 /* Assets.xcassets */; };
 		41EEC75626C57D1B0070C967 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EEC75526C57D1B0070C967 /* Preview Assets.xcassets */; };
+		45A2CDCDD0D496C302878945 /* Pods_AuthTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA48C6565268803CA47E1DB3 /* Pods_AuthTester.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41EEC74B26C57D1A0070C967 /* AuthTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413F99EC26C5B95D0006008C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		41B81B3D26C5BE4600F3E92D /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		41B81B3F26C5BEA600F3E92D /* PostRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		41B81B4026C5BEA700F3E92D /* NewPostForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostForm.swift; sourceTree = "<group>"; };
+		41B81B4126C5BEA700F3E92D /* PostsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsList.swift; sourceTree = "<group>"; };
+		41B81B4526C5C0DB00F3E92D /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
+		41E353C726C595260013B7D1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		41E353C926C595330013B7D1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		41E353CB26C596F60013B7D1 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		41E353CD26C59EEA0013B7D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41EEC74B26C57D1A0070C967 /* FireBase Posts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FireBase Posts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EEC74E26C57D1A0070C967 /* AuthTesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTesterApp.swift; sourceTree = "<group>"; };
 		41EEC75026C57D1A0070C967 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41EEC75226C57D1B0070C967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41EEC75526C57D1B0070C967 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA48C6565268803CA47E1DB3 /* Pods_AuthTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1001D9E1A5ED1322B1945EC /* Pods-AuthTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthTester.release.xcconfig"; path = "Target Support Files/Pods-AuthTester/Pods-AuthTester.release.xcconfig"; sourceTree = "<group>"; };
+		F8C5E72C30F0C3332CCD53DE /* Pods-AuthTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthTester.debug.xcconfig"; path = "Target Support Files/Pods-AuthTester/Pods-AuthTester.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,24 +50,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A2CDCDD0D496C302878945 /* Pods_AuthTester.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		413F99EA26C5B6230006008C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				413F99EC26C5B95D0006008C /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		413F99EB26C5B62D0006008C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				41B81B3D26C5BE4600F3E92D /* PostData.swift */,
+				41E353CB26C596F60013B7D1 /* SignInViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		41EEC74226C57D190070C967 = {
 			isa = PBXGroup;
 			children = (
 				41EEC74D26C57D1A0070C967 /* AuthTester */,
 				41EEC74C26C57D1A0070C967 /* Products */,
+				EAAE4D6A88937BF63309EF62 /* Pods */,
+				85A90152A5E5FFE40A264355 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		41EEC74C26C57D1A0070C967 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41EEC74B26C57D1A0070C967 /* AuthTester.app */,
+				41EEC74B26C57D1A0070C967 /* FireBase Posts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +95,11 @@
 		41EEC74D26C57D1A0070C967 /* AuthTester */ = {
 			isa = PBXGroup;
 			children = (
+				413F99EA26C5B6230006008C /* Models */,
+				413F99EB26C5B62D0006008C /* ViewModels */,
+				41EEC75C26C57FC50070C967 /* Views */,
 				41EEC74E26C57D1A0070C967 /* AuthTesterApp.swift */,
-				41EEC75026C57D1A0070C967 /* ContentView.swift */,
+				41E353CD26C59EEA0013B7D1 /* GoogleService-Info.plist */,
 				41EEC75226C57D1B0070C967 /* Assets.xcassets */,
 				41EEC75426C57D1B0070C967 /* Preview Content */,
 			);
@@ -67,6 +114,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		41EEC75C26C57FC50070C967 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41B81B4026C5BEA700F3E92D /* NewPostForm.swift */,
+				41B81B3F26C5BEA600F3E92D /* PostRow.swift */,
+				41B81B4126C5BEA700F3E92D /* PostsList.swift */,
+				41EEC75026C57D1A0070C967 /* ContentView.swift */,
+				41E353C726C595260013B7D1 /* SignInView.swift */,
+				41E353C926C595330013B7D1 /* SignUpView.swift */,
+				41B81B4526C5C0DB00F3E92D /* SignOutView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		85A90152A5E5FFE40A264355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA48C6565268803CA47E1DB3 /* Pods_AuthTester.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAE4D6A88937BF63309EF62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8C5E72C30F0C3332CCD53DE /* Pods-AuthTester.debug.xcconfig */,
+				E1001D9E1A5ED1322B1945EC /* Pods-AuthTester.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41EEC75926C57D1B0070C967 /* Build configuration list for PBXNativeTarget "AuthTester" */;
 			buildPhases = (
+				E9EA59468C9D31D448407C91 /* [CP] Check Pods Manifest.lock */,
 				41EEC74726C57D1A0070C967 /* Sources */,
 				41EEC74826C57D1A0070C967 /* Frameworks */,
 				41EEC74926C57D1A0070C967 /* Resources */,
+				68F3984EC909EB6E66AD3A3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +164,7 @@
 			);
 			name = AuthTester;
 			productName = AuthTester;
-			productReference = 41EEC74B26C57D1A0070C967 /* AuthTester.app */;
+			productReference = 41EEC74B26C57D1A0070C967 /* FireBase Posts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,18 +207,70 @@
 			files = (
 				41EEC75626C57D1B0070C967 /* Preview Assets.xcassets in Resources */,
 				41EEC75326C57D1B0070C967 /* Assets.xcassets in Resources */,
+				41E353CE26C59EEA0013B7D1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68F3984EC909EB6E66AD3A3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthTester/Pods-AuthTester-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuthTester/Pods-AuthTester-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthTester/Pods-AuthTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EA59468C9D31D448407C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthTester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41EEC74726C57D1A0070C967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E353CA26C595330013B7D1 /* SignUpView.swift in Sources */,
+				41B81B4626C5C0DB00F3E92D /* SignOutView.swift in Sources */,
+				41B81B4426C5BEA700F3E92D /* PostsList.swift in Sources */,
+				41E353C826C595260013B7D1 /* SignInView.swift in Sources */,
 				41EEC75126C57D1A0070C967 /* ContentView.swift in Sources */,
+				413F99ED26C5B95D0006008C /* Post.swift in Sources */,
 				41EEC74F26C57D1A0070C967 /* AuthTesterApp.swift in Sources */,
+				41B81B3E26C5BE4600F3E92D /* PostData.swift in Sources */,
+				41B81B4226C5BEA700F3E92D /* PostRow.swift in Sources */,
+				41B81B4326C5BEA700F3E92D /* NewPostForm.swift in Sources */,
+				41E353CC26C596F60013B7D1 /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +395,7 @@
 		};
 		41EEC75A26C57D1B0070C967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C5E72C30F0C3332CCD53DE /* Pods-AuthTester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -284,7 +417,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.timmiller.AuthTester;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FireBase Posts";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,6 +426,7 @@
 		};
 		41EEC75B26C57D1B0070C967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1001D9E1A5ED1322B1945EC /* Pods-AuthTester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,7 +448,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.timmiller.AuthTester;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "FireBase Posts";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
