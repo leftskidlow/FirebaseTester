@@ -13,6 +13,7 @@
 		41B81B4326C5BEA700F3E92D /* NewPostForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B4026C5BEA700F3E92D /* NewPostForm.swift */; };
 		41B81B4426C5BEA700F3E92D /* PostsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B4126C5BEA700F3E92D /* PostsList.swift */; };
 		41B81B4626C5C0DB00F3E92D /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B4526C5C0DB00F3E92D /* SignOutView.swift */; };
+		41B81B4826C678D000F3E92D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B81B4726C678D000F3E92D /* User.swift */; };
 		41E353C826C595260013B7D1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E353C726C595260013B7D1 /* SignInView.swift */; };
 		41E353CA26C595330013B7D1 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E353C926C595330013B7D1 /* SignUpView.swift */; };
 		41E353CC26C596F60013B7D1 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E353CB26C596F60013B7D1 /* SignInViewModel.swift */; };
@@ -31,6 +32,7 @@
 		41B81B4026C5BEA700F3E92D /* NewPostForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPostForm.swift; sourceTree = "<group>"; };
 		41B81B4126C5BEA700F3E92D /* PostsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsList.swift; sourceTree = "<group>"; };
 		41B81B4526C5C0DB00F3E92D /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
+		41B81B4726C678D000F3E92D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		41E353C726C595260013B7D1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		41E353C926C595330013B7D1 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		41E353CB26C596F60013B7D1 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				413F99EC26C5B95D0006008C /* Post.swift */,
+				41B81B4726C678D000F3E92D /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				413F99ED26C5B95D0006008C /* Post.swift in Sources */,
 				41EEC74F26C57D1A0070C967 /* AuthTesterApp.swift in Sources */,
 				41B81B3E26C5BE4600F3E92D /* PostData.swift in Sources */,
+				41B81B4826C678D000F3E92D /* User.swift in Sources */,
 				41B81B4226C5BEA700F3E92D /* PostRow.swift in Sources */,
 				41B81B4326C5BEA700F3E92D /* NewPostForm.swift in Sources */,
 				41E353CC26C596F60013B7D1 /* SignInViewModel.swift in Sources */,

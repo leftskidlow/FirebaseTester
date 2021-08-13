@@ -14,7 +14,10 @@ struct PostsList: View {
     var body: some View {
         NavigationView {
             List(postData.posts, id: \.text) { post in
-                PostRow(post: post)
+              PostRow(post: post, postData: postData)
+            }
+            .refreshable {
+              await postData.loadPosts()
             }
             .navigationTitle("Posts")
             .onAppear {

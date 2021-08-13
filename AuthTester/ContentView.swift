@@ -26,6 +26,9 @@ struct ContentView: View {
                 Label("New Post", systemImage: "plus.circle")
               }
             SignOutView()
+              .tabItem {
+                Label("Profile", systemImage: "gear")
+              }
           }
         } else {
           SignInView()

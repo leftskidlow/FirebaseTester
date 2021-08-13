@@ -8,10 +8,28 @@
 import SwiftUI
 
 struct SignOutView: View {
+  
+//  @State var userName: String = ""
+  var userName = "exampleUser10101"
   @EnvironmentObject var signInViewModel: SignInViewModel
+  
   var body: some View {
-    VStack {
-      Text("You are signed in")
+    VStack{
+      Image(systemName: "person.circle")
+        .resizable()
+        .scaledToFit()
+        .padding()
+      Button {
+        
+      } label: {
+        Text("Change Photo...")
+      }
+      Spacer()
+      Text("User Name:")
+      Text(userName)
+        .font(.title2)
+        .bold()
+      Spacer()
       Button {
         signInViewModel.signOut()
       } label: {
@@ -21,10 +39,11 @@ struct SignOutView: View {
           .background(Color.blue)
           .cornerRadius(15)
       }
+      Spacer()
     }
-    .tabItem {
-      Label("Settings", systemImage: "list.dash")
-    }
+//    .tabItem {
+//      Label("Settings", systemImage: "list.dash")
+//    }
   }
 }
 
